@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    scrollbar-width: none;
+    font-family: lato, Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: none;
+}
+
+:root{
+    --laranja: #ff4539;
+    --azul: #33e0e5;
+    --verde: #96e268;
+    --cinza: #303030;
+    --branco: #f8f8f8;
+}
+
+@font-face {
+    font-family: lato;
+    src: url(/fonts/Lato-Regular.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: latoB;
+    src: url(/fonts/Lato-Black.ttf);
+    font-display: swap;
+}
+
+section, div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    padding: 2rem 1rem;
+}
+
+h1{
+    font-family: latoB;
+}
+
+h1, span, p, h2, h3{
+    max-width: 500px;
+}
+
+html{
+    background: #000;
+    overflow-y: scroll;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: url(/assets/bg.webp) no-repeat top/contain;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+button{
+    font-size: 1.3rem;
+    padding: .5em 1em;
+    min-width: fit-content;
+    background: var(--verde);
+    color: var(--branco);
+    border: none;
+    border-radius: 1em;
+    animation: ease-in-out pulse 1s infinite alternate;
+    cursor: pointer;
+}
+
+@keyframes pulse {
+    to{
+        scale: .9;
+    }
+}
+
+
+
+@keyframes toLeft {
+    from{
+        translate: -10% 0;
+        opacity: 0;
+    }
+    to{
+        translate: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes toRight {
+    from{
+        translate: 10% 0;
+        opacity: 0;
+    }
+    to{
+        translate: 0;
+        opacity: 1;
+    }
+}
+
+
+.toLeft{
+    animation: ease-in-out toLeft .5s;
+}
+
+.toRight{
+    animation: ease-in-out toRight .5s;
+}
+
+.anima{
+    opacity: 0;
+}
