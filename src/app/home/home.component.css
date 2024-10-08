@@ -1,0 +1,41 @@
+section {
+    background: url(/assets/home.webp) no-repeat top/contain, #fff;
+    min-height: 100vh;
+    text-align: center;
+    gap: 1em;
+    justify-content: flex-end;
+    padding-top: 6rem;
+}
+
+h1 {
+    font-size: 1.7rem;
+}
+
+h1, h2{
+    color: #555555;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+
+strong {
+    font-family: latoB;
+    color: var(--laranja);
+}
+
+img {
+    width: 60%;
+    height: auto;
+    margin-bottom: 1rem;
+    background: #fff;
+    padding: .5em;
+    border-radius: .5em;
+}
+
+cite {
+    color: var(--laranja);
+    padding: .5em;
+    background: #fff;
+}

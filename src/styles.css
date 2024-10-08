@@ -21,13 +21,13 @@
 
 @font-face {
     font-family: lato;
-    src: url(/fonts/Lato-Regular.ttf);
+    src: url(/assets/Lato-Regular.ttf);
     font-display: swap;
 }
 
 @font-face {
     font-family: latoB;
-    src: url(/fonts/Lato-Black.ttf);
+    src: url(/assets/Lato-Black.ttf);
     font-display: swap;
 }
 
@@ -40,7 +40,7 @@ section, div{
 }
 
 section{
-    padding: 2rem 1rem;
+    padding: 4rem 1rem;
 }
 
 h1{
@@ -66,7 +66,13 @@ body{
     flex-direction: column;
     background: url(/assets/bg.webp) no-repeat top/contain;
     margin: 0 auto;
-    max-width: 600px;
+}
+
+@media screen and (min-width:768px) {
+    body{
+        max-width: 450px;
+    }
+    
 }
 
 button{

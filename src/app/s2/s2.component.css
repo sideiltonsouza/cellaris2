@@ -1,0 +1,15 @@
+section{
+    background: url(/assets/bg-s2.jpg) no-repeat top/cover;
+    text-align: center;
+    color: var(--branco);
+    gap: 1em;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+p{
+    margin: 2rem 0;
+}

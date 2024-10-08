@@ -1,0 +1,22 @@
+section{
+    background: var(--branco);
+}
+
+h1{
+    margin-bottom: 2rem;
+}
+
+details{
+    width: 100%;
+    padding: .5em 0;
+}
+
+summary{
+    font-size: 1.3rem;
+    padding: .5em 0;
+    color: var(--laranja);
+}
+
+button{
+    margin-top: 2rem;
+}

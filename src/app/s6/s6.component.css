@@ -1,0 +1,20 @@
+section {
+    background: #222222;
+    text-align: center;
+    color: var(--branco);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1:first-of-type {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+h1:last-of-type{
+    margin: 2rem 0;
+    font-family: lato;
+}

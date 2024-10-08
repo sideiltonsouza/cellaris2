@@ -1,0 +1,16 @@
+section{
+    background: url(/assets/bg-s4.jpg) no-repeat center/cover;
+    text-align: center;
+    color: var(--branco);
+    gap: 1em;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
